@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .footer{
+           width: 100%;
+           height: 300px;
+        
+           margin-top: 40px;
+           border-top: 1px solid black;
+           border-bottom: 1px solid black;
+           margin-top: 1000px;
+         
+        
+         
+       }
+       .footer .items{
+           width: 80%;
+           margin: auto;
+          margin-top: 20px;
+          display: grid;
+          font-family: "Trade Gothic W01 Bold_2", Helvetica, Arial, sans-serif;
+          color: rgb(176,150,184);
+          font-size: 15px;
+          grid-template-columns: 30% 20% 20% 20% 17%;
+          
+    
+       }
+       #email{
+           width: 90%;
+           height: 50px;
+       }
+       #img-1{
+           width: 40px;
+           margin-right: 5px;
+       }
+       .items div h3{
+           margin-bottom: 10px;
+           color: black;
+           font-size: 15px;
+
+       }
+       .h32~p{
+           margin: 5px;
+           font-family: "Trade Gothic W01 Bold_2", Helvetica, Arial, sans-serif;
+           color:rgb(160,159,159);
+           font-weight:lighter;
+       }
+       .foot2{
+           display: grid;
+           grid-template-columns: 80% 20%;
+
+       }
+       
+       .foot2 div img{
+           margin-top: 20px;
+           margin-left: 40px;           
+           
+       }
+       .boy{
+        font-family: "Trade Gothic W01 Bold_2", Helvetica, Arial, sans-serif;
+           color:rgb(160,159,159);
+          
+
+       }
+       #img222{
+           margin-left: 85%;
+           position: fixed;
+           top:650px;
+           bottom: 650px;
+           
+       }
+       .nav{
+           width: 100%;
+           display: flex;
+           background-color: white;
+           justify-content: space-evenly;
+           
+          
+       }
+       .nav div{
+           margin-left:200px;
+        
+          margin-top: 20px;
+       }
+       
+       #navimg{
+           width: 10%;
+           margin: auto;
+           align-items: center;
+           margin-left: 10px;
+
+       }
+       #left{
+           padding-left: 20px;
+           
+       }
+       #left img{
+           margin-top: -10px;
+           width: 25%;
+           margin-right: 10px;
+       }
+       .nav2{
+          width: 100%;
+          background-color: white;;
+       
+          display: grid;
+          grid-template-columns: 20% 20% 20% 20% 20%;
+      }
+      .nav2 div{
+          margin: auto;
+          align-items: center;
+      }
+      .nav2 div a{
+
+        font-family: "Trade Gothic W01 Bold_2", Helvetica, Arial, sans-serif;
+        color: rgb(17,17,17);
+        font-weight:lighter;
+        text-decoration: none;
+        cursor: pointer;
+        
+          
+      }
+     .nav2~ul li{
+        list-style: none;
+        display: inline-block;
+        font-family: "Trade Gothic W01 Bold_2", Helvetica, Arial, sans-serif;
+        cursor: pointer;
+        margin-left: 5px;
+        font-size: 14px;
+        font-weight: 100;
+      }
+      .leftside {
+      max-width: 19%;
+      min-width: 19%;
+      font-family: "Trade Gothic W01 Bold_2", Helvetica, Arial, sans-serif;
+        float: left;
+  
+      display: flex;
+      flex-direction: column;
+      float: left;
+    }
+    .leftside .bath h4 {
+      line-height: 0%;
+    }
+
+    .leftside .bath ul li {
+      line-height: 170%;
+    }
+
+    .leftside .bath ul li a {
+      color: black;
+      font-size: 13px;
+      line-height: 24px;
+    }
+
+    .leftside .bath ul li a:hover {
+      color: #e5002e;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    .bath h4 {
+      margin-left: 40px;
+    }
+
+    .bath ul {
+      margin-top: -1px;
+    }
+
+    .bath ul li {
+      list-style: none;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    #display{
+           
+           width: 80%;
+           
+           height: 1700px;
+           margin: auto;
+           display: grid;
+           grid-template-columns: 20% 20% 20% 20%;
+           grid-gap: 20px;
+           justify-content: center;
+           
+       
+
+       }
+       #display div{
+           
+           padding: 20px;
+           margin:10px;
+       }
+       
+       #display img{
+           width: 100%;
+       }
+       #display p{
+           font-family: "Trade Gothic W01 Bold_2", Helvetica, Arial, sans-serif;
+           align-items: center;
+           font-size: 13px;
+           padding-left: 15px;
+       }
+       #display button{
+           background-color: black;
+           color: white;
+           align-items: center;
+           width: 80%;
+           height: 40px;
+           font-family: "Trade Gothic W01 Bold_2", Helvetica, Arial, sans-serif;
+           
+       }
+       .cont2-1{
+        width: 60%;
+        display: inline-block;
+      
+        height: 100px;
+        padding-left: 120px;
+       
+        display: flex;
+        font-family: "Trade Gothic W01 Bold_2", Helvetica, Arial, sans-serif;
+      
+       }
+       .cont2-1 div{
+           
+           height: 20px;
+           margin-left: 70%
+           
+          
+       }
+       .cont2-1 div select{
+         width: 120px;
+         height: 30px;
+         border-radius: 3px;
+       }
+
+  
+    
+      
+
+      
+      
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div></div>
+        <div>
+          <a href="index.html">
+         <img src="https://cdn1.staticans.com/image/catalog/brandstore/bathandbodyworks/bbwlogos.png" alt="">
+          </a>
+         
+        </div>
+        <div id="left">
+          <a href="signup.html">
+            <img src="https://img.icons8.com/windows/50/000000/user.png"/>
+            </a>
+            <a href="addtobag.html">
+            <img src="https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/64/000000/external-shopping-bags-miscellaneous-kiranshastry-gradient-kiranshastry.png"/>
+           </a>
+           
+          
+          
+
+        </div>
+
+    </div>
+    <div class="nav2" >
+      <div><a href="product.html">BODY WASH</a></div>
+      <div><a href="product.html">Home Wash</a>
+      </div>
+      <div>
+      <p><a href="product.html">HOME FRANGANCE</a></p>
+      </div>
+      <div>
+         <a href="product.html">GIFTS</a>
+
+      </div>
+      <div>
+          <a href="product.html">TOP OFFER</a>
+
+      </div>
+
+  </div>
+        <div id="line33"></div>
+        <ul>
+            <li>Home</li>
+            <li>/</li>
+            <li>New & Now</li>
+            <li>/</li>
+            <li>New Arrivals</li>
+        </ul>
+        
+     <div class="leftside">
+        <div class="bath">
+            <h4><a href="#">New Arrivals</a></h4>
+            <ul>
+              <li><a href="">  Body Wash & Shower Gel</a></li>
+              <li><a href="">Body Scrub</a></li>
+              <li><a href="">Bath Accessories</a></li>
+       
+            </ul>
+     </div>
+          <div class="bath">
+            <h4><a href="#">MOISTURIZERS</a></h4>
+            <ul>
+              <li><a href="">Body Lotion</a></li>
+              <li><a href="">Hand Cream</a></li>
+              <li><a href="">Body Cream</a></li>
+              <li><a href="">Body & Massage Oils</a></li>
+              <li><a href=""> Hand Care</a></li>
+            </ul>
+          </div>
+          <div class="bath">
+            <h4><a href="#">FRAGRANCE</a></h4>
+            <ul>
+              <li><a href=""> Body Sprays & Mists</a></li>
+              <li><a href="">  Perfume & Cologne</a></li>
+            </ul>
+          </div>
+          <div class="bath">
+            <h4><a href="#">COLLECTIONS</a></h4>
+            <ul>
+              <li><a href="">  A Thousand Wishes</a></li>
+              <li><a href="">Gingham</a></li>
+              <li><a href="">Into the Night Collection</a></li>
+              <li><a href="">  Aromatherapy</a></li>
+              <li><a href="">Men's Body Care</a></li>
+            </ul>
+          </div>
+
+     </div>
+      <div class="cont2-1">
+        <h3>All Hand Soaps</h3>
+        <div>
+          <select name="" id="filter" onchange="lth()">
+            <option value="high" >high to low</option>
+            <option value="low">low to high</option>
+          </select>
+        </div>
+
+      </div>
+
+     <div id="display">
+         
+
+     </div>
+
+     
+
+    
+
+   
+
+        
+       
+        
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="footer">
+        <div class="items">
+            <div>
+                <p class="p1">Get email offers & the latest news from Bath & <br>Body Works!</p>
+                <input type="email" id="email" placeholder="enter your email">
+                <p class="p1">GET CONNECTED</p>
+                <img src="https://img.icons8.com/color/48/000000/facebook-new.png" id="img-1"/>
+                <img src="https://img.icons8.com/color/48/000000/instagram-new.png" id="img-1"/>
+                <img src="https://img.icons8.com/fluency/48/000000/google-logo.png" id="img-1"/>
+                <img src="https://img.icons8.com/color/48/000000/twitter--v1.png" id="img-1"/>
+            </div>
+            <div>
+                <h3 class="h32">CUSTOMER CARE</h3>
+                <p>Help & FAQs</p>
+                <p>Live Chat</p>
+                <p>Shipping</p>
+                <p>Returns & Exchanges</p>
+                <p>Order Tracking</p>
+                <p>Corporate Gifts</p>
+                <p>Contact Us</p>
+               
+            </div>
+            <div>
+                <h3 class="h32">My Account</h3>
+                <p>Sign In or Sign Up</p>
+                <p>Order History</p>
+                <p> My Love-It List</p>
+                
+                
+            </div>
+            <div>
+                <h3 class="h32">DISCOVER</h3>
+<p>Our Story</p>
+<p>Careers Gift Cards</p>
+<p>Shop by Fragrance</p>
+<p>Videos</p>
+<p>Product Ingredients</p>          
+            </div>
+            <div>
+                <h3 class="h32">Find us</h3>
+                <p>Store Locators</p>
+                <p>Global Locations</p>
+            </div>
+
+        </div>
+
+    </div>
+   
+    <div class="foot2">
+        <div>
+            <img src="https://ik.imagekit.io/d9uq9nbni/image/catalog/brandstore/bathandbodyworks/secured.png" alt="">
+        </div>
+        <div class="boy">
+            <p>Site Map  |   Terms Of Use  |   Privacy Policy</p>
+                © Bath & Body Works. All Rights Reserved
+                
+        </div>
+
+    </div>
+    <img id="img222"src="https://img.icons8.com/external-justicon-lineal-justicon/64/000000/external-tracking-map-and-location-justicon-lineal-justicon.png"/>
+
+
+    
+</body>
+</html>
+<script>
+    let parent=document.getElementById("display");
+      
+
+    var data = [
+    {
+      name: "SAMSUNG Galaxy F12",
+      rating: 4,
+      image_url:
+        "https://rukminim1.flixcart.com/image/312/312/kn22m4w0/mobile/a/q/8/galaxy-f12-sm-f127gzgiins-samsung-original-imagftmjw3xqg4yk.jpeg?q=70",
+      price: 11499,
+    },
+    {
+      name: "SAMSUNG Galaxy F42",
+      rating: 4.2,
+      image_url:
+        "https://rukminim1.flixcart.com/image/312/312/ku4ezrk0/mobile/v/5/e/galaxy-f42-5g-sm-e426bzahins-samsung-original-imag7anfwxsgumgz.jpeg?q=70",
+      price: 12199,
+    },
+    {
+      name: "Apple Iphone 12",
+      rating: 4.6,
+      image_url:
+        "https://rukminim1.flixcart.com/image/312/312/kg8avm80/mobile/r/h/z/apple-iphone-12-dummyapplefsn-original-imafwg8dqgncgbcb.jpeg?q=70",
+      price: 59999,
+    },
+    {
+      name: "APPLE iPhone 12 Mini",
+      rating: 4.5,
+      image_url:
+        "https://rukminim1.flixcart.com/image/312/312/kg8avm80/mobile/d/g/b/apple-iphone-12-mini-dummyapplefsn-original-imafwgbfhfevaajh.jpeg?q=70",
+      price: 49999,
+    },
+    {
+      name: "OPPO A12",
+      rating: 3.8,
+      image_url:
+        "https://rukminim1.flixcart.com/image/312/312/kb1470w0/mobile/q/g/g/oppo-a12-cph2083-original-imafsh2hfkyamqyt.jpeg?q=70",
+      price: 9490,
+    },
+    {
+      name: "ASUS ROG Phone 3",
+      rating: 4.9,
+      image_url:
+        "https://rukminim1.flixcart.com/image/312/312/kcuug7k0/mobile/g/h/e/asus-rog-phone-3-zs661ks-6a006in-original-imaftwc6nmyuyekd.jpeg?q=70",
+      price: 46999,
+    },
+    {
+      name: "DIZO Star 300",
+      rating: 3.4,
+      image_url:
+        "https://rukminim1.flixcart.com/image/312/312/kqpj4i80/mobile/e/i/r/star-300-dh2001-dizo-original-imag4nmpv7zahzs2.jpeg?q=70",
+      price: 1299,
+    },
+    {
+      name: "Micromax IN Note 1 ",
+      rating: 4.4,
+      image_url:
+        "https://rukminim1.flixcart.com/image/312/312/ku5ufm80/mobile/v/t/1/in-note-1-e7746-micromax-original-imag7cdgz6tqychm.jpeg?q=70",
+      price: 10999,
+    },
+    {
+      name: "SAMSUNG Galaxy Z Fold3 5G",
+      rating: 4,
+      image_url:
+        "https://rukminim1.flixcart.com/image/312/312/ksqeky80/mobile/x/7/1/galaxy-z-fold3-5g-sm-f926bzgdinu-samsung-original-imag68q6hpdwmngw.jpeg?q=70",
+      price: 149999,
+    },
+    {
+      price: 699,
+      name: "Striped Round Neck T-shirt",
+      image_url:
+        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/1700871/2020/1/22/f932ae44-0fb8-4b92-b7bc-f1756253294b1579692118186-HRX-by-Hrithik-Roshan-Men-Teal-Blue-Printed-T-shirt-90515796-1.jpg",
+    },
+    {
+      price: 699,
+
+      name: "Striped Round Neck T-shirt",
+      image_url:
+        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/10424682/2019/10/30/a034179e-9db3-4a3a-bce0-abae4d1413531572419249956-Roadster-Men-Tshirts-2571572419248675-1.jpg",
+    },
+    {
+      price: 699,
+
+      name: "Men Printed Cotton T-shirt",
+      image_url:
+        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/12816440/2021/2/9/d81a95aa-a268-4c7b-9deb-b960ad1586c41612855488092-HERENOW-Men-Tshirts-5601612855486681-1.jpg",
+    },
+    {
+      price: 699,
+      name: "Men Printed Cotton T-shirt",
+      image_url:
+        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/1700871/2020/1/22/f932ae44-0fb8-4b92-b7bc-f1756253294b1579692118186-HRX-by-Hrithik-Roshan-Men-Teal-Blue-Printed-T-shirt-90515796-1.jpg",
+    },
+    {
+      price: 699,
+
+      name: "Men Printed Cotton T-shirt",
+      image_url:
+        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/10424682/2019/10/30/a034179e-9db3-4a3a-bce0-abae4d1413531572419249956-Roadster-Men-Tshirts-2571572419248675-1.jpg",
+    },
+    {
+      price: 699,
+      name: "Men Printed Cotton T-shirt",
+      image_url:
+        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/12816440/2021/2/9/d81a95aa-a268-4c7b-9deb-b960ad1586c41612855488092-HERENOW-Men-Tshirts-5601612855486681-1.jpg",
+    },
+    {
+      price: 699,
+
+      name: "Men Printed Cotton T-shirt",
+      image_url:
+        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/12816440/2021/2/9/d81a95aa-a268-4c7b-9deb-b960ad1586c41612855488092-HERENOW-Men-Tshirts-5601612855486681-1.jpg",
+    },
+    {
+      price: 699,
+      name: "Men Printed Cotton T-shirt",
+      image_url:
+        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/10424682/2019/10/30/a034179e-9db3-4a3a-bce0-abae4d1413531572419249956-Roadster-Men-Tshirts-2571572419248675-1.jpg",
+    },
+    {
+      price: 699,
+
+      name: "Men Printed Cotton T-shirt",
+      image_url:
+        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/12816440/2021/2/9/d81a95aa-a268-4c7b-9deb-b960ad1586c41612855488092-HERENOW-Men-Tshirts-5601612855486681-1.jpg",
+    },
+    {
+      price: 699,
+      name: "Men Printed Cotton T-shirt",
+      image_url:
+        "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/12816440/2021/2/9/d81a95aa-a268-4c7b-9deb-b960ad1586c41612855488092-HERENOW-Men-Tshirts-5601612855486681-1.jpg",
+    },
+  ];
+
+function showproducts(d){
+  parent.innerHTML=null;
+   
+d.forEach(function(product){
+ 
+   console.log(product);
+    let div=document.createElement("div");
+    let img=document.createElement("img");
+    img.src=product.image_url;
+    let prod_price=document.createElement("p");
+    prod_price.textContent=product.name;
+    
+    let prod_name=document.createElement("p");
+    prod_name.textContent=product.price;
+    let addtocart_btn=document.createElement("button");
+    addtocart_btn.textContent="ADD TO BAG";
+    div.append(img,prod_name,prod_price,addtocart_btn);
+    parent.append(div);
+    addtocart_btn.onclick=function (){
+        addtocart(product);
+    }
+
+
+});
+}
+showproducts(data);
+if(localStorage.getItem("cart")===null){
+  localStorage.setItem("cart",JSON.stringify([]));
+ 
+}
+
+
+function addtocart(p){
+   let products_cart=JSON.parse(localStorage.getItem("cart"));
+   products_cart.push(p);
+ 
+   localStorage.setItem("cart",JSON.stringify(products_cart));
+
+  
+}
+function lth(){
+  let v=document.getElementById("filter").value;
+ 
+ 
+  
+  
+  if(v=="high"){
+    let arr=data.sort(function(a,b){
+      return b.price-a.price;
+      
+    }
+       
+    )
+    showproducts(arr);
+   
+  }
+  if(v=="low"){
+    let arr=data.sort(function(a,b){
+      return a.price-b.price;
+    
+  }
+    )
+    showproducts(arr);
+    
+   
+  
+  
+}
+}
+
+</script>
